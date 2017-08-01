@@ -5,6 +5,9 @@ The youtube-embed.html page contains the video embedded on https://www.gov.uk/tr
 The phantomjs-test.js script demonstrates the problem we're seeing in the Smokey tests:
 
 ```
+$ phantomjs -v
+1.9.8
+
 $ phantomjs phantomjs-test.js 
 TypeError: 'undefined' is not a function (evaluating 'this.g.pause()')
     at https://www.youtube.com/yts/jsbin/player-vflrwQIQw/en_GB/base.js:6480
